@@ -6,5 +6,5 @@ import java.util.UUID;
 import lombok.Builder;
 
 @Builder
-public record TemperatureLogOutput(
+public record TemperatureLogData(
     UUID id, TSID sensorId, OffsetDateTime registeredAt, Double value) {}
